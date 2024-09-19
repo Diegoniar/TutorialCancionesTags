@@ -27,7 +27,7 @@ class App(QApplication):
         self.ventana_lista_canciones = Ventana_Lista_Canciones(self)
         self.ventana_cancion = Ventana_Cancion(self)
 
-        # Se comienza en la lista de albums
+        print("Se comienza en la lista de albums")
         self.mostrar_ventana_lista_albums()
 
     def mostrar_ventana_lista_albums(self):
